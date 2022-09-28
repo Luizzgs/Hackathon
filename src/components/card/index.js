@@ -3,7 +3,7 @@ import { Text, View, Image, TouchableOpacity} from 'react-native';
 import styles from './styles'
 import { useNavigation } from '@react-navigation/native';
 
-export default function Card({nome, endereco, logo, descricao, preco, email, site, telefone, whats, insta, face, latitude, longitude, indice}) {
+export default function Card({nome, endereco, maps, logo, descricao, preco, email, site, telefone, whats, insta, face, latitude, longitude, indice}) {
     const navigation = useNavigation()
     return (
         <TouchableOpacity 
@@ -12,6 +12,7 @@ export default function Card({nome, endereco, logo, descricao, preco, email, sit
                 nome: nome.substring(1, nome.length-1),
                 logo: logo.substring(1, logo.length-1),
                 endereco: endereco.substring(1, endereco.length-1),
+                maps: maps.substring(1, maps.length-1),
                 descricao: descricao.substring(1, descricao.length-1),
                 preco: preco == null || preco == 'null' ? null : preco.substring(1, preco.length-1),
                 email: email == null || email == 'null' ? null : email.substring(1, email.length-1),

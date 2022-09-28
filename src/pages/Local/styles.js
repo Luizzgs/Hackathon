@@ -60,6 +60,20 @@ const styles = StyleSheet.create({
         width: '95%',
         marginTop: 10,        
     },    
+    buttonCG: {
+        backgroundColor: '#1D3557',
+        width: '40%',
+        height: 35,
+        alignItems: 'center',
+        justifyContent: 'center',
+        alignSelf: 'center',
+        borderRadius: 7,
+        flexDirection: "row"
+    },
+    buttonCGText: {
+        color: "#FFF",
+        fontSize: 15,
+    },
     contactContainer: {
         width: '80%',        
         flexDirection: 'row'

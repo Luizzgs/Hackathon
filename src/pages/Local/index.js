@@ -65,18 +65,23 @@ export default function Local({route}) {
                 </View>
 
                 <View style={styles.lineTopicos}/>
-
-                {route.params.preco == null || route.params.preco == 'null' 
-                    ?   
-                    <View style={[styles.price, {marginLeft: '2%'}]}>
-                        <Text style={{fontWeight: '600', fontSize: 20}}>Gratuito</Text>
-                    </View>
-                    :
-                    <View style={[styles.price, {marginLeft: '2%'}]}>
-                        <Text style={{fontWeight: '600', fontSize: 20}}>R$ {route.params.preco}</Text>
-                    </View>
-                }                        
-
+                <View style={{flexDirection: 'row'}}>
+                    {route.params.preco == null || route.params.preco == 'null' 
+                        ?   
+                        <View style={[styles.price, {marginLeft: '2%', width: '50%'}]}>
+                            <Text style={{fontWeight: '600', fontSize: 20}}>Gratuito</Text>
+                        </View>
+                        :
+                        <View style={[styles.price, {marginLeft: '2%', width: '50%'}]}>
+                            <Text style={{fontWeight: '600', fontSize: 20}}>R$ {route.params.preco}</Text>
+                        </View>
+                    }
+                    <TouchableOpacity style={styles.buttonCG} onPress={ async () => await Linking.openURL(route.params.maps)}>
+                        <MaterialCommunityIcons name="navigation" color="#FFF" size={20}/>
+                        <Text style={styles.buttonCGText}>Como chegar?</Text>
+                    </TouchableOpacity> 
+                </View>
+                                     
                 <View style={styles.lineTopicos}/>
 
                 <View style={[styles.mapView, {marginLeft: '2%'}]}>

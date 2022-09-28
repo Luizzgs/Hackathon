@@ -28,6 +28,7 @@ export default function Home() {
                   id: JSON.stringify(item.id),
                   nome: JSON.stringify(item.nome),
                   endereco: JSON.stringify(item.endereco),
+                  maps: JSON.stringify(item.maps),
                   logo: JSON.stringify(item.logo),
                   descricao: JSON.stringify(item.descricao),
                   preco: null,
@@ -50,6 +51,7 @@ export default function Home() {
                   id: JSON.stringify(item.id),
                   nome: JSON.stringify(item.nome),
                   endereco: JSON.stringify(item.endereco),
+                  maps: JSON.stringify(item.maps),
                   logo: JSON.stringify(item.logo),
                   descricao: JSON.stringify(item.descricao),
                   preco: JSON.stringify(item.preco),
@@ -72,6 +74,7 @@ export default function Home() {
                   id: JSON.stringify(item.id),
                   nome: JSON.stringify(item.nome),
                   endereco: JSON.stringify(item.endereco),
+                  maps: JSON.stringify(item.maps),
                   logo: JSON.stringify(item.logo),
                   descricao: JSON.stringify(item.descricao),
                   preco: JSON.stringify(item.preco),
@@ -94,6 +97,7 @@ export default function Home() {
                   id: JSON.stringify(item.id),
                   nome: JSON.stringify(item.nome),
                   endereco: JSON.stringify(item.endereco),
+                  maps: JSON.stringify(item.maps),
                   logo: JSON.stringify(item.logo),
                   descricao: JSON.stringify(item.descricao),
                   preco: JSON.stringify(item.preco),
@@ -116,6 +120,7 @@ export default function Home() {
                   id: JSON.stringify(item.id),
                   nome: JSON.stringify(item.nome),
                   endereco: JSON.stringify(item.endereco),
+                  maps: JSON.stringify(item.maps),
                   logo: JSON.stringify(item.logo),
                   descricao: JSON.stringify(item.descricao),
                   preco: JSON.stringify(item.preco),
@@ -155,6 +160,7 @@ export default function Home() {
                 key={lugar.id} 
                 nome={lugar.nome} 
                 endereco={lugar.endereco} 
+                maps={lugar.maps}
                 logo={lugar.logo}
                 descricao={lugar.descricao}
                 preco={lugar.preco}
