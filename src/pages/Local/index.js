@@ -107,144 +107,144 @@ export default function Local({route}) {
                 
                 <View style={styles.lineTopicos}/>
 
-                <Text style={{fontWeight: 'bold', fontSize: 20, marginLeft: '2%'}}>Contato</Text>
-                <View style={styles.contact}>
-                        {route.params.site != null && route.params.site != 'null' 
-                            ?   
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="web" 
-                                        color="#1D3557" 
-                                        size={25} 
-                                        onPress={async () => await Linking.openURL(`https://${route.params.site}`)}
-                                    />
-                                    <Text style={{color: "#1D3557", marginLeft: 2}}>Site</Text>
-                                </View>
-                                
-                            :
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="web" 
-                                        color="#D9D9D9" 
-                                        size={25} 
-                                    />
-                                    <Text style={{color: "#D9D9D9", marginLeft: 2}}>Site</Text>
-                                </View>
-                        }
+                <ScrollView style={{height: '8%'}}>
+                    <Text style={{fontWeight: 'bold', fontSize: 20, marginLeft: '2%'}}>Contato</Text>
+                    <View style={styles.contact}>
+                            {route.params.site != null && route.params.site != 'null' 
+                                ?   
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="web" 
+                                            color="#1D3557" 
+                                            size={25} 
+                                            onPress={async () => await Linking.openURL(`https://${route.params.site}`)}
+                                        />
+                                        <Text style={{color: "#1D3557", marginLeft: 2}}>Site</Text>
+                                    </View>
+                                    
+                                :
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="web" 
+                                            color="#D9D9D9" 
+                                            size={25} 
+                                        />
+                                        <Text style={{color: "#D9D9D9", marginLeft: 2}}>Site</Text>
+                                    </View>
+                            }
 
-                        {route.params.whats != null && route.params.whats != 'null' 
-                            ?   
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="whatsapp" 
-                                        color="#1D3557" 
-                                        size={25} 
-                                        onPress={async () => await Linking.openURL(`https://api.whatsapp.com/send?phone=55${route.params.whats.substring(1, 3) + route.params.whats.substring(4,10) + route.params.whats.substring(11,15)}`)}
-                                    />
-                                    <Text style={{color: "#1D3557", marginLeft: 2}}>Whatsapp</Text>
-                                </View>
-                            :
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="whatsapp" 
-                                        color="#D9D9D9" 
-                                        size={25} 
-                                    />
-                                    <Text style={{color: "#D9D9D9", marginLeft: 2}}>Whatsapp</Text>
-                                </View>
-                        }
+                            {route.params.whats != null && route.params.whats != 'null' 
+                                ?   
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="whatsapp" 
+                                            color="#1D3557" 
+                                            size={25} 
+                                            onPress={async () => await Linking.openURL(`https://api.whatsapp.com/send?phone=55${route.params.whats.substring(1, 3) + route.params.whats.substring(4,10) + route.params.whats.substring(11,15)}`)}
+                                        />
+                                        <Text style={{color: "#1D3557", marginLeft: 2}}>Whatsapp</Text>
+                                    </View>
+                                :
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="whatsapp" 
+                                            color="#D9D9D9" 
+                                            size={25} 
+                                        />
+                                        <Text style={{color: "#D9D9D9", marginLeft: 2}}>Whatsapp</Text>
+                                    </View>
+                            }
 
-                        {route.params.telefone != null && route.params.telefone != 'null' 
-                            ?   
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="phone" 
-                                        color="#1D3557" 
-                                        size={25} 
-                                        onPress={async () => await Linking.openURL(`tel:${route.params.telefone}`)}
-                                    />
-                                    <Text style={{color: "#1D3557", marginLeft: 2}}>Telefone</Text>
-                                </View>
-                            :
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="phone" 
-                                        color="#D9D9D9" 
-                                        size={25} 
-                                    />
-                                    <Text style={{color: "#D9D9D9", marginLeft: 2}}>Telefone</Text>
-                                </View>
-                        }
+                            {route.params.telefone != null && route.params.telefone != 'null' 
+                                ?   
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="phone" 
+                                            color="#1D3557" 
+                                            size={25} 
+                                            onPress={async () => await Linking.openURL(`tel:${route.params.telefone}`)}
+                                        />
+                                        <Text style={{color: "#1D3557", marginLeft: 2}}>Telefone</Text>
+                                    </View>
+                                :
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="phone" 
+                                            color="#D9D9D9" 
+                                            size={25} 
+                                        />
+                                        <Text style={{color: "#D9D9D9", marginLeft: 2}}>Telefone</Text>
+                                    </View>
+                            }
 
-                        {route.params.email != null && route.params.email != 'null' 
-                            ?   
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="email" 
-                                        color="#1D3557" 
-                                        size={25} 
-                                        onPress={async () => await Linking.openURL(`mailto:${route.params.email}`)}
-                                    />
-                                    <Text style={{color: "#1D3557", marginLeft: 2}}>Email</Text>
-                                </View>
-                            :
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="email" 
-                                        color="#D9D9D9" 
-                                        size={25} 
-                                    />
-                                    <Text style={{color: "#D9D9D9", marginLeft: 2}}>Email</Text>   
-                                </View>
-                        }   
+                            {route.params.email != null && route.params.email != 'null' 
+                                ?   
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="email" 
+                                            color="#1D3557" 
+                                            size={25} 
+                                            onPress={async () => await Linking.openURL(`mailto:${route.params.email}`)}
+                                        />
+                                        <Text style={{color: "#1D3557", marginLeft: 2}}>Email</Text>
+                                    </View>
+                                :
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="email" 
+                                            color="#D9D9D9" 
+                                            size={25} 
+                                        />
+                                        <Text style={{color: "#D9D9D9", marginLeft: 2}}>Email</Text>   
+                                    </View>
+                            }   
 
-                        {route.params.insta != null && route.params.insta != 'null' 
-                            ?   
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="instagram" 
-                                        color="#1D3557" 
-                                        size={25} 
-                                        onPress={async () => await Linking.openURL(route.params.insta)}
-                                    />
-                                    <Text style={{color: "#1D3557", marginLeft: 2}}>Instagram</Text>
-                                </View>
-                            :
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="instagram" 
-                                        color="#D9D9D9" 
-                                        size={25} 
-                                    />
-                                    <Text style={{color: "#D9D9D9", marginLeft: 2}}>Instagram</Text>
-                                </View>
-                        }
+                            {route.params.insta != null && route.params.insta != 'null' 
+                                ?   
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="instagram" 
+                                            color="#1D3557" 
+                                            size={25} 
+                                            onPress={async () => await Linking.openURL(route.params.insta)}
+                                        />
+                                        <Text style={{color: "#1D3557", marginLeft: 2}}>Instagram</Text>
+                                    </View>
+                                :
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="instagram" 
+                                            color="#D9D9D9" 
+                                            size={25} 
+                                        />
+                                        <Text style={{color: "#D9D9D9", marginLeft: 2}}>Instagram</Text>
+                                    </View>
+                            }
 
-                        {route.params.face != null && route.params.face != 'null' 
-                            ?   
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="facebook" 
-                                        color="#1D3557" 
-                                        size={25} 
-                                        onPress={async () => await Linking.openURL(route.params.face)}
-                                    />
-                                    <Text style={{color: "#1D3557", marginLeft: 2}}>Facebook</Text>
-                                </View>
-                            :
-                                <View style={styles.contactItem}>
-                                    <MaterialCommunityIcons 
-                                        name="facebook" 
-                                        color="#D9D9D9" 
-                                        size={25} 
-                                    />
-                                    <Text style={{color: "#D9D9D9", marginLeft: 2}}>Facebook</Text>
-                                </View>
-                        }
-                </View>
-            </View>
-            
-                      
+                            {route.params.face != null && route.params.face != 'null' 
+                                ?   
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="facebook" 
+                                            color="#1D3557" 
+                                            size={25} 
+                                            onPress={async () => await Linking.openURL(route.params.face)}
+                                        />
+                                        <Text style={{color: "#1D3557", marginLeft: 2}}>Facebook</Text>
+                                    </View>
+                                :
+                                    <View style={styles.contactItem}>
+                                        <MaterialCommunityIcons 
+                                            name="facebook" 
+                                            color="#D9D9D9" 
+                                            size={25} 
+                                        />
+                                        <Text style={{color: "#D9D9D9", marginLeft: 2}}>Facebook</Text>
+                                    </View>
+                            }
+                    </View>
+                </ScrollView>
+            </View>        
        </View>
     )
 }
