@@ -4,26 +4,29 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-        height: '200%'
-    },
+        height: '100%'
+    },    
     header: {
        height: '8%',
        backgroundColor: '#1D3557',
-       flexDirection: 'row',
-       
+       flexDirection: 'row', 
+       padding: -12      
     },
     button: {
         marginTop: 20,
         height: '100%',
-        width: "20%",
+        width: "100%",
         marginTop: 2,
-        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'row',      
     },
     text: {
-        justifyContent: 'center', 
+        fontWeight: 'bold', 
+        fontSize: 20, 
+        color: '#D9D9D9'
     },
     icon: {
-        marginLeft: 10,
+        marginLeft: 12,        
     },
     imageContainer: {
         height: '22%',
@@ -37,17 +40,17 @@ const styles = StyleSheet.create({
     },
     line: {
         borderBottomColor: '#D9D9D9',
-        borderBottomWidth: 2,
-        margin: '1%'
-    },
+        borderBottomWidth: 1,        
+        marginBottom: 5
+    },    
     titleContainer: {
         flexDirection: 'row',
         width: '100%',
     },
     title: {
         width: '80%',
-        alignContent: 'center',
-        marginLeft: '2%',
+        alignContent: 'center',        
+        fontWeight: 400,        
     },
     starContainer: {
         flexDirection: 'row', 
@@ -55,35 +58,40 @@ const styles = StyleSheet.create({
     },
     description: {
         width: '95%',
-        marginTop: 10,
-        marginLeft: '2%',
-    },
-    price: {
-        marginTop: 10,
-        marginLeft: '2%',
-    },
+        marginTop: 10,        
+    },    
     contactContainer: {
-        width: '80%',
-        marginLeft: '2%',
+        width: '80%',        
         flexDirection: 'row'
     },
     contact: {
         display: "flex",
         flexDirection: "row",
-        flexWrap: 'wrap'
+        flexWrap: 'wrap',        
     },
     contactItem: {
         width: '28%',
         flexDirection: 'row',
-        alignItems: 'center',
-        marginLeft: '4%',
-        marginTop: '2%'
-    },
-    map: {
+        alignItems: 'center',        
         marginTop: '2%',
-        width: '100%',
-        height: '30%'
+        marginLeft: '4%'
     },
+    mapView: {
+        marginTop: 3,
+        width: '100%',
+        height: '25%', 
+        borderRadius: 2,
+    },
+    map: {        
+        width: '100%',
+        height: '100%',        
+    },
+    lineTopicos: {
+        borderBottomColor: '#D9D9D9',
+        borderBottomWidth: 1,        
+        marginHorizontal: 20,
+        marginVertical: 15
+    }
 });
 
 export default styles

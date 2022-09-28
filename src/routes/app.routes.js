@@ -8,6 +8,7 @@ import Home from '../pages/Home'
 import Notification from '../pages/notifications'
 import Profile from '../pages/profile'
 import Local from '../pages/Local'
+import Config from '../pages/Config'
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -17,6 +18,7 @@ export function HomeNavigation() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name='Home' component={Home} />
             <Stack.Screen name='Local' component={Local} />
+            <Stack.Screen name='Config' component={Config} />
         </Stack.Navigator>
     )
 }

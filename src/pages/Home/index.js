@@ -17,6 +17,7 @@ export default function Home() {
   }
 
   async function getData(opcao) {
+    setLoading(true)
     await fetch(`http://uenp.fun/turismo/api/${opcao}`)
       .then( res => res.json())
         .then( res => { 
@@ -134,21 +135,20 @@ export default function Home() {
           }
         })
       .catch( error => console.log(error))
+      setLoading(false)
   }
 
-  useEffect(() => {
-    setLoading(true)
+   useEffect(() => {
     getData(indice)
-    setLoading(false)
   },[indice])
   
   return (
     <View style={styles.container}>
       <Header/>
+      <Options atualizaHome={atualizaHome}/>
       {isLoading ? <ActivityIndicator style={styles.loading} size="large" color="#1D3557"/> :
         <View>
           <ScrollView style={styles.scrollView}>
-            <Options atualizaHome={atualizaHome}/>
             
             {lugares.map(lugar => 
               <Card 

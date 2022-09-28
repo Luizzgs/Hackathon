@@ -5682,6 +5682,11 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
+"react-native-geolocation-service@^5.3.1":
+  "integrity" "sha512-LTXPtPNmrdhx+yeWG47sAaCgQc3nG1z+HLLHlhK/5YfOgfLcAb9HAkhREPjQKPZOUx8pKZMIpdGFUGfJYtimXQ=="
+  "resolved" "https://registry.npmjs.org/react-native-geolocation-service/-/react-native-geolocation-service-5.3.1.tgz"
+  "version" "5.3.1"
+
 "react-native-gesture-handler@>= 1.0.0", "react-native-gesture-handler@>= 1.5.0", "react-native-gesture-handler@~2.5.0":
   "integrity" "sha512-djZdcprFf08PZC332D+AeG5wcGeAPhzfCJtB3otUgOgTlvjVXmg/SLFdPJSpzLBqkRAmrC77tM79QgKbuLxkfw=="
   "resolved" "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.5.0.tgz"
@@ -5710,6 +5715,11 @@
   dependencies:
     "@types/geojson" "^7946.0.7"
     "deprecated-react-native-prop-types" "^2.3.0"
+
+"react-native-permissions@^3.6.1":
+  "integrity" "sha512-fzPpPQXeD34inUccqtoResSwYubfrwUguP4qrVUUv8+KSMjYSaHGoS5HaIJLZHlN9gO+TvLJZ2L5ZljTsb6qnQ=="
+  "resolved" "https://registry.npmjs.org/react-native-permissions/-/react-native-permissions-3.6.1.tgz"
+  "version" "3.6.1"
 
 "react-native-safe-area-context@>= 0.6.0", "react-native-safe-area-context@>= 3.0.0":
   "integrity" "sha512-4dFZPDHRigZ+uw8HCmMLyC/IT1BG0B9QLvuwsBQAMDCRSrxISIYza9VIbsIn2FGvZiQ1gOoXBHDmy9WFihQsTg=="
@@ -5744,7 +5754,7 @@
     "postcss-value-parser" "^4.2.0"
     "styleq" "^0.1.2"
 
-"react-native@*", "react-native@^0.0.0-0 || 0.60 - 0.70 || 1000.0.0", "react-native@>= 0.51", "react-native@>=0.42.0", "react-native@>=0.57", "react-native@0.69.6":
+"react-native@*", "react-native@^0.0.0-0 || 0.60 - 0.70 || 1000.0.0", "react-native@>= 0.51", "react-native@>=0.42.0", "react-native@>=0.57", "react-native@>=0.63.3", "react-native@0.69.6":
   "integrity" "sha512-wwXpqM+12kdEYdBZCJUb5SBu95CzgejrwFeYJ78RzHZV/Sj6DBRekbsHGrDDsY4R25QXALQxy4DQYQCObVvWjA=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.69.6.tgz"
   "version" "0.69.6"
@@ -5812,7 +5822,7 @@
     "object-assign" "^4.1.1"
     "react-is" "^16.12.0 || ^17.0.0 || ^18.0.0"
 
-"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.0.0", "react@>= 16.0", "react@>=16.0", "react@>=17.0.0", "react@18.0.0":
+"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0", "react@^18.0.0", "react@>= 16.0", "react@>=16.0", "react@>=16.13.1", "react@>=17.0.0", "react@18.0.0":
   "integrity" "sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.0.0.tgz"
   "version" "18.0.0"

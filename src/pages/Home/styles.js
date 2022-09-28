@@ -4,6 +4,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         flexDirection: 'column',
+        backgroundColor: '#fff',
+        height: '200%'
       },
       loading: {
         flex: 1,
@@ -12,6 +14,7 @@ const styles = StyleSheet.create({
       },
       scrollView: {
         flexDirection: 'column',
+        height: '80%'
       }
 });
 
