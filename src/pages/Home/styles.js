@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
       },
       scrollView: {
         flexDirection: 'column',
-        height: '80%'
+        height: '85%'
       }
 });
 
