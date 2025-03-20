@@ -23,22 +23,22 @@ Para rodar o aplicativo, siga os seguintes passos:
 ## Telas
 
 Tela de Login: realiza o login na aplicação. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/login.png?token=GHSAT0AAAAAABZAOL2SQBJQ5D65QUWBHIR6YZUWYUA"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/refs/heads/main/login.png"> <br/>
 
 Tela de Cadastro: realiza o cadastro na aplicação. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/register.png?token=GHSAT0AAAAAABZAOL2TLZB7236HKH5LH6IUYZUWZOA"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://github.com/Luizzgs/Imagesns_app/blob/main/register.png?raw=true"> <br/>
 
 Tela Home: a tela principal, é onde o usuário é levado após o login. Contêm a informação de atrações, bares, eventos, hoteis e restaurantes cadastrados de Bandeirantes-PR. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/home.png?token=GHSAT0AAAAAABZAOL2SLW4RNSW576P5KJQMYZUWYGA"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://github.com/Luizzgs/Imagesns_app/blob/main/home.png?raw=true"> <br/>
 
 Tela do Local: clicando em um local na Home, é mostrado todas as informações disponíveis daquele local. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/card.png?token=GHSAT0AAAAAABZAOL2SPKXPCWUSHW6PNNPQYZUWWXQ"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://github.com/Luizzgs/Imagesns_app/blob/main/card.png?raw=true"> <br/>
 
 Tela de Configurações: o usuário pode arrumar as configurações do aplicativo. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/config.png?token=GHSAT0AAAAAABZAOL2S2UE4OL3FPWV3BAEMYZUWXRQ"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://github.com/Luizzgs/Imagesns_app/blob/main/config.png?raw=true"> <br/>
 
 Tela de Notificações: mostra as notificações do usuário. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/notification.png?token=GHSAT0AAAAAABZAOL2S2LVDLUSEXXDND4KIYZUWZAQ"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://github.com/Luizzgs/Imagesns_app/blob/main/notification.png?raw=true"> <br/>
 
 Tela de Perfil: mostra o perfil do usuário. <br/>
-<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://raw.githubusercontent.com/Luizzgs/Imagesns_app/main/profile.png?token=GHSAT0AAAAAABZAOL2TDBYACLIDGZTBVY4YYZUWZLQ"> <br/>
+<img width="300" alt="Screen Shot 2020-03-30 at 10 17 57 PM" src="https://github.com/Luizzgs/Imagesns_app/blob/main/profile.png?raw=true"> <br/>
